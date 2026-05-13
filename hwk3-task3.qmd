@@ -1,0 +1,15 @@
+# Task 3: Considerations in High Dimensions
+
+This document explores common problems that arise in high-dimensional datasets, specifically in case where the number of features is larger than the number of observations. Here, I discuss overfitting when p > n or p ≈ n, from Section 6.4 of 'An Introduction to Statistical Learning with Applications in Python/R' to clarify the concept and summarize how generative AI was applied to better understand it.
+
+## Concept from the reading I wanted clarification on
+
+I wanted clarification on why high-dimensional data, where the number of predictors is either larger than or close  to the number of observations, can overfit the data even when the model appears to fit the training data well.
+
+The initial prompt I used to get clarification from a genAI chatbot:
+
+> I am a master’s student in environmental data science taking a machine learning course. I am reading Section 6.4, “Considerations in High Dimensions,” from An Introduction to Statistical Learning with Applications in Python. I understand basic linear regression and the idea of training/test data, but I am confused about why having more features than observations OR having the number of features close to the number of observations makes regression models overfit. Specifically, I don’t fully understand how a model can fit the training data very well but still perform poorly on new data. Can you explain this using an analogy followed by a numerical application? Also, compare this issue to a lower-dimensional regression problem where the number of observations is larger than the number of predictors.
+
+## Conclusion
+
+I used ChatGPT to clarify why in the case of p > n, overfitting is a problem. My first prompt asked about what is meant by the model fitting the training data well, but performing poorly on the test set, where I specified the chatbot to use an analogy accompanied by a simple numerical example, and also compare that to cases where the p ≈ n. The second prompt asked to clarify interpretation of the coefficients by using the example given in the first response. It took two iterations for me to fully understand the difference in p > n and p ≈ n. The answers provided by ChatGPT were helpful as they matched not only the discussion in the textbook, but also tied them to why other statistical methods where important to avoid overfitting, such as lasso or ridge regression. After using these prompts, I gained a better understanding of the problems arising from a highly flexible model that might be capturing the random noise in the data, which comes at the expense of the model's generalizability. 
