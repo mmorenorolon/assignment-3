@@ -1,6 +1,6 @@
 # Task 3: Considerations in High Dimensions
 
-This document explores common problems that arise in high-dimensional datasets, specifically in case where the number of features is larger than the number of observations. Here, I discuss overfitting when p > n or p ≈ n, from Section 6.4 of 'An Introduction to Statistical Learning with Applications in Python/R' to clarify the concept and summarize how generative AI was applied to better understand it.
+This document explores common problems that arise in high-dimensional datasets, specifically in case where the number of features is larger than the number of observations. Here, I discuss overfitting when p > n or p ≈ n, from Section 6.4 of 'An Introduction to Statistical Learning with Applications in Python' to clarify the concept and summarize how generative AI was applied to better understand it.
 
 ## Concept from the reading I wanted clarification on
 
